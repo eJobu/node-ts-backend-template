@@ -27,7 +27,7 @@
     "axios": "0.27.2",
     "bcrypt": "5.0.1",
     "dotenv": "8.6.0",
-    "http-status-codes": "^2.2.0",
+    "http-status-codes": "2.2.0",
     "jsonwebtoken": "8.5.1",
     "koa": "2.13.0",
     "koa-bodyparser": "4.3.0",
@@ -44,7 +44,7 @@
     "winston": "3.8.1"
   },
   "devDependencies": {
-    "@trunkio/launcher": "^1.1.1",
+    "@trunkio/launcher": "1.1.1",
     "@types/bcrypt": "3.0.1",
     "@types/chai": "4.3.3",
     "@types/chai-as-promised": "7.1.5",
@@ -71,6 +71,6 @@
     "eslint-plugin-promise": "4.3.1",
     "husky": "8.0.1",
     "mocha": "8.4.0",
-    "nyc": "^15.1.0"
+    "nyc": "15.1.0"
   }
 }
