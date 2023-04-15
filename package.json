@@ -46,7 +46,7 @@
   "devDependencies": {
     "@trunkio/launcher": "1.2.4",
     "@types/bcrypt": "3.0.1",
-    "@types/chai": "4.3.3",
+    "@types/chai": "4.3.4",
     "@types/chai-as-promised": "7.1.5",
     "@types/jsonwebtoken": "8.5.9",
     "@types/koa": "2.13.5",
@@ -61,7 +61,7 @@
     "@types/uuid": "8.3.4",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
-    "chai": "4.3.6",
+    "chai": "4.3.7",
     "chai-as-promised": "7.1.1",
     "eslint": "7.32.0",
     "eslint-config-standard": "16.0.3",
