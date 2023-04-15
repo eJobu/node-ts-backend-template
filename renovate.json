@@ -1,13 +1,14 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+     ":pinAllExceptPeerDependencies"
   ],
   "automerge": true,
   "automergeType": "pr",
   "timezone": "Europe/Berlin",
   "schedule": [
-    "after 3pm every day",
-    "before 5am every day"
+    "after 3pm on sunday",
+    "before 5am on monday"
   ],
   "prHourlyLimit": 3,
   "prConcurrentLimit": 5,
@@ -16,5 +17,6 @@
       "matchUpdateTypes": ["major"],
       "enabled": false
     }
-  ]
+  ],
+  "ignoreDeps": ["typeorm", "jsonwebtoken", "typescript"]
 }
