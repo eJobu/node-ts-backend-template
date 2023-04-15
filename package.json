@@ -44,7 +44,7 @@
     "winston": "3.8.2"
   },
   "devDependencies": {
-    "@trunkio/launcher": "1.2.1",
+    "@trunkio/launcher": "1.2.4",
     "@types/bcrypt": "3.0.1",
     "@types/chai": "4.3.3",
     "@types/chai-as-promised": "7.1.5",
